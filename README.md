@@ -2,12 +2,26 @@
 
 Welcome to the **Cake App**, a delightful web application built with **Nuxt.js**! This app is designed to showcase a variety of cakes, provide recipes, and allow users to add comments and rate the cakes.
 
-The app is a simple CRUD application which perfoms the following requests :
-● GET /cakes   - shows list of all the cakes (name and image) on the Home button
-● GET /cakes/{id} - clicking on the image takes you to a single cake image, with comments, yum factor and other data being displayed
-● POST /cakes - Submit a cake button allows you to add a new cake using a form. The url is any url from the internet of a jpeg or png file. 
-● PUT /cakes/{id}  - use the Update button to update existing cake data. 
-● DELETE /cakes/{id} - use the delete button on Home page to delete any cake. 
+# Guide ✨
+The app is a simple CRUD application that performs the following operations:
+
+Endpoints Overview 🌟
+Method	Endpoint	Description
+GET	/cakes	Displays a list of all cakes (name and image) on the Home page.
+GET	/cakes/{id}	Clicking on a cake image shows detailed information (comments, yum factor, etc).
+POST	/cakes	Use the Submit a Cake button to add a new cake via a form.
+PUT	/cakes/{id}	Use the Update button to modify existing cake data.
+DELETE	/cakes/{id}	Use the Delete button on the Home page to remove a cake.
+Features 🎉
+Home Page: View all cakes with their names and images.
+
+Cake Details: Click on any cake to see its full details, including comments and yum factor.
+
+Add a Cake: Submit a new cake using a form. Provide a URL for the cake image (JPEG or PNG).
+
+Update a Cake: Edit existing cake information.
+
+Delete a Cake: Remove a cake from the list.
 
 The data is written and read from a file as you submit, update or delete a cake. 
 ---
