@@ -5,25 +5,26 @@ Welcome to the **Cake App**, a delightful web application built with **Nuxt.js**
 # Guide ✨
 The app is a simple CRUD application that performs the following operations:
 
-Endpoints Overview 🌟
+## Endpoints Overview 🌟
 Method	Endpoint	Description
-GET	/cakes	Displays a list of all cakes (name and image) on the Home page.
-GET	/cakes/{id}	Clicking on a cake image shows detailed information (comments, yum factor, etc).
-POST	/cakes	Use the Submit a Cake button to add a new cake via a form.
-PUT	/cakes/{id}	Use the Update button to modify existing cake data.
-DELETE	/cakes/{id}	Use the Delete button on the Home page to remove a cake.
-Features 🎉
-Home Page: View all cakes with their names and images.
+- **GET	/cakes**:	Displays a list of all cakes (name and image) on the Home page.
+- **GET	/cakes/{id}**:	Clicking on a cake image shows detailed information (comments, yum factor, etc).
+- **POST	/cakes**:	Use the Submit a Cake button to add a new cake via a form.
+- **PUT	/cakes/{id}**:	Use the Update button to modify existing cake data.
+- **DELETE	/cakes/{id}**:	Use the Delete button on the Home page to remove a cake.
+  
+## Features 🎉
+- **Home Page:**: View all cakes with their names and images.
 
-Cake Details: Click on any cake to see its full details, including comments and yum factor.
+- **Cake Details:**: Click on any cake to see its full details, including comments and yum factor.
 
-Add a Cake: Submit a new cake using a form. Provide a URL for the cake image (JPEG or PNG).
+- **Add a Cake:**: Submit a new cake using a form. Provide a URL for the cake image (JPEG or PNG).
 
-Update a Cake: Edit existing cake information.
+- **Update a Cake:**: Edit existing cake information.
 
-Delete a Cake: Remove a cake from the list.
+- **Delete a Cake:**: Remove a cake from the list.
 
-The data is written and read from a file as you submit, update or delete a cake. 
+The data is written into and read from a file "cakes.ts" as you submit, update or delete a cake. 
 ---
 
 ## Features ✨
