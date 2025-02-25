@@ -17,15 +17,15 @@ Welcome to the **Cake App**, a delightful web application built with **Nuxt.js**
 ## Technologies Used 🛠️
 
 - **Frontend Framework**: [Nuxt.js](https://nuxtjs.org/)
+- **Backend Engine**: [Nitro](https://nitro.unjs.io/) (Nuxt's server engine)
 - **Styling**: Tailwind CSS (or your preferred CSS framework)
----
+- **Data Fetching**: Nuxt.js `fetch` method
 
 ## Installation 🚀
 
 Follow these steps to set up the Cake App locally:
 
 1. **Clone the repository**:
-   ```bash
    git clone https://github.com/shenoy/nuxt-app.git
    cd nuxt-app
    
