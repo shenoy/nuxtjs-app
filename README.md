@@ -28,26 +28,15 @@ Follow these steps to set up the Cake App locally:
    ```bash
    git clone https://github.com/shenoy/nuxt-app.git
    cd nuxt-app
+   
 Install dependencies:
-
-bash
-Copy
 npm install
+
 Run the development server:
-
-bash
-Copy
 npm run dev
+
 Open your browser and visit:
-
-Copy
 http://localhost:3000
-
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
 
 ```
 
